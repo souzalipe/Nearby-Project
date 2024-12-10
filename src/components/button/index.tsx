@@ -23,11 +23,10 @@ function Button({ children, style, isLoading = false, ...rest }: ButtonProps) {
       {...rest}
     >
       { isLoading ? (
-        <ActivityIndicator size={"small"} color={colors.gray[100]} />
+        <ActivityIndicator size="small" color={colors.gray[100]} />
        ) : ( 
         children 
        )}
-      <ActivityIndicator />
     </TouchableOpacity>
   ); 
   
