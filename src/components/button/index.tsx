@@ -19,7 +19,7 @@ function Button({ children, style, isLoading = false, ...rest }: ButtonProps) {
     <TouchableOpacity 
       style={[s.conteiner, style]} 
       activeOpacity={0.8} 
-      disabled
+      disabled={isLoading}
       {...rest}
     >
       { isLoading ? (
