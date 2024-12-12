@@ -4,10 +4,10 @@ import { router, useLocalSearchParams, Redirect } from "expo-router"
 import { useCameraPermissions, CameraView } from "expo-camera"
 
 import { Button } from "@/components/button"
-import { Loading } from "@/components/loding"
+import { Loading } from "@/components/loading"
 import { Cover } from "@/components/market/cover"
 import { Coupon } from "@/components/market/coupon"
-import { Details, PropsDetails } from "@/components/market/datails"
+import { Details, PropsDetails } from "@/components/market/details"
 
 import { api } from "@/services/api"
 

@@ -1,20 +1,20 @@
-import { FlatList } from "react-native";
-import { Category } from "../category";
-import { s } from "./styles";
+import { FlatList } from "react-native"
+
+import { s } from "./styles"
+import { Category } from "../category"
 
 export type CategoriesProps = {
-  id: string;
-  name: string;
-}[];
+  id: string
+  name: string
+}[]
 
 type Props = {
-  data: CategoriesProps;
-  selected: string;
-  onSelect: (id: string) => void;
-};
+  data: CategoriesProps
+  selected: string
+  onSelect: (id: string) => void
+}
 
 export function Categories({ data, selected, onSelect }: Props) {
-  console.log(data);
   return (
     <FlatList
       data={data}
@@ -28,8 +28,9 @@ export function Categories({ data, selected, onSelect }: Props) {
         />
       )}
       horizontal
+      showsHorizontalScrollIndicator={false}
       contentContainerStyle={s.content}
-      style={s.conteiner}
+      style={s.container}
     />
-  );
+  )
 }
