@@ -14,21 +14,62 @@ Esse é um projeto do evento NLW Pocket Mobile, um dos conteúdos disponíveis p
 
 ## Instalação 🛠
 
-1. Clone o repositório:
+Siga os passos abaixo para instalar e executar o aplicativo Nerbay no seu dispositivo utilizando o Expo Go:
 
-   ```
-   git clone https://github.com/souzalipe/Nearby-Project/
-   ```
+Pré-requisitos
+	1.	Smartphone Android ou iOS.
+	2.	Conexão com a internet.
+	3.	Aplicativo Expo Go instalado no celular:
+	•	Baixe na Google Play Store (Android) ou App Store (iOS).
 
-2. Navegue até o diretório do projeto:
+Etapas para Instalação
 
-   ```
-   cd mobile
-   ```
+1. Clonar o Repositório
 
-   ```
-   cd api
-   ```
+Baixe ou clone o repositório do projeto Nerbay no seu computador:
+```
+git clone https://github.com/souzalipe/nerbay.git
+```
+
+```
+cd nerbay
+```
+
+2. Instalar Dependências
+
+Certifique-se de ter o Node.js e o npm ou yarn instalados no seu computador. Depois, execute:
+
+```
+npm install
+```
+
+# ou
+
+```
+yarn install
+```
+
+3. Iniciar o Projeto com Expo
+
+Inicie o servidor de desenvolvimento do Expo:
+
+```
+npx start
+```
+
+Isso abrirá uma aba no navegador com o Expo Developer Tools e exibirá um QR Code.
+
+No Smartphone
+
+1. Abrir o Expo Go
+	1.	Abra o aplicativo Expo Go no seu smartphone.
+	2.	Faça login com a mesma conta do Expo que está utilizando no computador (caso necessário).
+
+2. Escanear o QR Code
+   
+	2.1.	Escaneie o QR Code gerado no terminal ou no Expo Developer Tools.
+    
+	2.2.	O app Nerbay será carregado automaticamente no seu dispositivo.
 
 ## Contribuindo
 
